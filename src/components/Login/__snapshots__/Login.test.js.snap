@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should renders login component 1`] = `
+<div>
+  <div
+    style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;"
+  >
+    <img
+      alt="login"
+      height="100%"
+      src="/login.png"
+      width="100%"
+    />
+    <div
+      style="margin-left: 20%; margin-right: 20%;"
+    >
+      <h1>
+        Enter Employee Id
+      </h1>
+      <input
+        aria-label="userid-input"
+        class="ant-input"
+        name="userid"
+        type="text"
+        value="11"
+      />
+      
+      <div
+        style="margin-top: 10%;"
+      >
+        <button>
+           Login 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New Hack Idea renders new hack idea creation page 1`] = `
+<div>
+  <div
+    style="height: 100%; width: 100%; display: flex; justify-content: center; margin: 4rem;"
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <h1>
+        Add New Hack Item
+      </h1>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-form-item-label"
+        >
+          <label
+            class="ant-form-item-required"
+            for="title"
+            title="Title"
+          >
+            Title
+          </label>
+        </div>
+        <div
+          class="ant-col ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="title"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-form-item-label"
+        >
+          <label
+            class="ant-form-item-required"
+            for="description"
+            title="Description"
+          >
+            Description
+          </label>
+        </div>
+        <div
+          class="ant-col ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="description"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-form-item-label"
+        >
+          <label
+            class="ant-form-item-required"
+            for="tags"
+            title="Tags"
+          >
+            Tags
+          </label>
+        </div>
+        <div
+          class="ant-col ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <div
+                class="ant-select ant-select-multiple ant-select-show-search"
+              >
+                <div
+                  class="ant-select-selector"
+                >
+                  <div
+                    class="ant-select-selection-overflow"
+                  >
+                    <div
+                      class="ant-select-selection-overflow-item ant-select-selection-overflow-item-suffix"
+                      style="opacity: 1;"
+                    >
+                      <div
+                        class="ant-select-selection-search"
+                        style="width: 0px;"
+                      >
+                        <input
+                          aria-activedescendant="tags_list_0"
+                          aria-autocomplete="list"
+                          aria-controls="tags_list"
+                          aria-haspopup="listbox"
+                          aria-owns="tags_list"
+                          autocomplete="off"
+                          class="ant-select-selection-search-input"
+                          id="tags"
+                          role="combobox"
+                          type="search"
+                          value=""
+                        />
+                        <span
+                          aria-hidden="true"
+                          class="ant-select-selection-search-mirror"
+                        >
+                          
+                           
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    Please select Tags
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          class="ant-btn ant-btn-primary"
+          style="margin: 1rem;"
+          type="submit"
+        >
+          <span>
+            Add HackIDEA
+          </span>
+        </button>
+        <button
+          class="ant-btn"
+          style="margin: 1rem;"
+          type="reset"
+        >
+          <span>
+            Reset
+          </span>
+        </button>
+        <button
+          class="ant-btn"
+          style="margin: 1rem;"
+          type="button"
+        >
+          <a
+            href="/dashboard"
+          >
+            Go To Dashboard
+          </a>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
